@@ -1,0 +1,11 @@
+debug/logic_acount.o
+debug/logic_login.o
+debug/main.o
+debug/acount.o
+debug/acountdao.o
+debug/user.o
+debug/userdao.o
+debug/view_acount.o
+debug/widget.o
+debug/moc_view_acount.o
+debug/moc_widget.o

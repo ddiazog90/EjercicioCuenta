@@ -23,6 +23,7 @@ void Widget::validate(){
         QMessageBox::information(this,"Login","Acceso Correcto");
         this->hide();//cierra la ventana actual
         va->show();//abre la ventana view_acount
+        va->loadDATA();//cargar los datos del archivo
     }else{
         QMessageBox::information(this,"Login","Credenciales Incorrectas");
     }

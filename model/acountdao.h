@@ -11,6 +11,7 @@ private:
     fstream archivo;
 public:
     acountDAO();
+    acountDAO(acount*);
     void createFile();
     acount getAcountAll();
     vector<string>split(const string&,char);

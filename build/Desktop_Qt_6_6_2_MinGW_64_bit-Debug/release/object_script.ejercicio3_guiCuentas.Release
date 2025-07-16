@@ -1,0 +1,11 @@
+release/logic_acount.o
+release/logic_login.o
+release/main.o
+release/acount.o
+release/acountdao.o
+release/user.o
+release/userdao.o
+release/view_acount.o
+release/widget.o
+release/moc_view_acount.o
+release/moc_widget.o

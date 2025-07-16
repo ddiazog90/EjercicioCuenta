@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    controller/logic_acount.cpp \
     controller/logic_login.cpp \
     main.cpp \
     model/acount.cpp \
@@ -19,6 +20,7 @@ SOURCES += \
     widget.cpp
 
 HEADERS += \
+    controller/logic_acount.h \
     controller/logic_login.h \
     model/acount.h \
     model/acountdao.h \
